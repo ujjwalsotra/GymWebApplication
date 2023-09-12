@@ -39,7 +39,7 @@ const SearchExer = ({ setExercise, bodyPart, setBodyPart }) => {
     <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
       <Typography
         fontWeight={700}
-        sx={{ fontSize: { lg: "44px", xs: "30px" } }}
+        sx={{ fontSize: { lg: "44px", xs: "30px" },color:'#fff' }}
         mb="50px"
         textAlign="center"
       >
@@ -47,12 +47,13 @@ const SearchExer = ({ setExercise, bodyPart, setBodyPart }) => {
         <br />
         You Should Know
       </Typography>
-      <Box position="relative" mb="72px">
+      <Box position="relative" mb="72px" color="#fff">
         <TextField
           sx={{
-            input: { fontWeight: "700", border: "none", borderRadius: "4px" },
+            input: { fontWeight: "700", border: "1px white solid", borderRadius: "4px" },
             width: { lg: "800px", xs: "350px" },
             borderRadius: "40px",
+            color:"#fff"
           }}
           height="76px"
           value={inField}
@@ -63,7 +64,7 @@ const SearchExer = ({ setExercise, bodyPart, setBodyPart }) => {
         <Button
           className="search-btn"
           sx={{
-            bgcolor: "#ff2625",
+            bgcolor: "#d4a517",
             color: "#fff",
             textTransform: "none",
             width: { lg: "175px", xs: "80px" },

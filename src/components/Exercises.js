@@ -39,7 +39,7 @@ useEffect(()=>{
     mt="50px"
     p="20px"
     >
-      <Typography variant='h3' mb="46px">
+      <Typography variant='h3' mb="46px" color="#d4a517">
         Showing Results
       </Typography>
       <Stack direction="row" sx={{gap:{lg:'110px',xs:'50px'}}}

@@ -27,8 +27,8 @@ const Detail = ({ exerciseDetail }) => {
     >
       <img src={gifUrl} alt={name} loading="lazy" className="detail-image" />
       <Stack sx={{ gap: { lg: "35px", xs: "20px" } }}>
-        <Typography variant="h2">{name}</Typography>
-        <Typography variant="h5">
+        <Typography variant="h2" color="#d4a517">{name}</Typography>
+        <Typography variant="h5" color="#fff">
           A Day of exercise:- <b>{name} </b>keeps doctor away. Go in give it
           your all. Target your <b>{target} </b> muscles. Remember why you
           started. Its the pain that will make you strong.
@@ -49,7 +49,7 @@ const Detail = ({ exerciseDetail }) => {
                 style={{ width: "50px", height: "50px" }}
               />
             </Button>
-            <Typography variant="h5" textTransform="capitalize">
+            <Typography variant="h5" textTransform="capitalize" color="#fff">
               {item.name}
             </Typography>
           </Stack>

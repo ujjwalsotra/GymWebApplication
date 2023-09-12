@@ -5,7 +5,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
   console.log(exerciseVideos)
   return (
     <Box sx={{ marginTop: { lg: "200px", xs: "20px" } }} p="20px">
-      <Typography variant="h3" mb="33px" textTransform="capitalize">
+      <Typography variant="h3" mb="33px" textTransform="capitalize" color="#fff">
         Watch <b>{name}</b> exercise videos
       </Typography>
       <Stack
@@ -27,7 +27,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
           >
             <img src={item.video.thumbnails[0].url} alt={item.video.title}/>
             <Box>
-              <Typography variant="h4" color="#000">
+              <Typography variant="h4" color="#fff">
                 {item.video.title}
               </Typography>
               <Typography variant="h6" color="red">
